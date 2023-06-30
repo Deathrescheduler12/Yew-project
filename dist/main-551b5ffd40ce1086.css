@@ -1,0 +1,22 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(232, 231, 231);
+  color: greenyellow;
+  margin-bottom: 10px;
+  font-size: xx-large;
+}
+
+.card {
+  display: grid;
+  background-color: grey;
+  border-radius: 4px;
+  max-width: fit-content;
+  margin-bottom: 10px;
+}
+
+.card * {
+  margin-right: 100px;
+}
